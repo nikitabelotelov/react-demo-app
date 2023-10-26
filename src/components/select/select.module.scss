@@ -1,0 +1,22 @@
+.control {
+  height: 52px;
+  @media screen and (max-width: 768px) {
+    height: 40px;
+  }
+}
+
+.root .control {
+  border-radius: 2px;
+}
+
+.value {
+  font-size: 20px;
+  font-weight: 500;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.label {
+  margin-bottom: 12px;
+}

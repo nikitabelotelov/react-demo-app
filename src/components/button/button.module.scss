@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  height: 52px;
+  border-radius: 2px;
+  border: 0px solid transparent;
+  background: var(--color-pink-1);
+
+  color: var(--color-white);
+  text-align: center;
+
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 20px */
+
+  cursor: pointer;
+
+  @media screen and (max-width: 768px) {
+    height: 40px;
+    font-size: 14px;
+  }
+}

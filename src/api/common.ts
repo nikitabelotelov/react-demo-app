@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://freuders-web-api-test-3.azurewebsites.net/api';
